@@ -228,6 +228,49 @@ h1 {
 .feature h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
 .feature p { color: var(--muted); font-size: 15px; }
 
+/* ---------- COMPARE (ДО / ПОСЛЕ) ---------- */
+.compare-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.compare {
+  position: relative;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--card);
+  transition: transform .2s, border-color .2s;
+}
+.compare:hover { transform: translateY(-4px); border-color: var(--accent); }
+.compare img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.compare figcaption {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 6px 13px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+}
+.tag-off {
+  background: #0a0b14cc;
+  color: var(--muted);
+  border: 1px solid var(--card-border);
+}
+.tag-on { background: var(--accent-grad); color: #fff; }
+
+@media (max-width: 600px) {
+  .compare-grid { grid-template-columns: 1fr; }
+}
+
 /* ---------- VIDEO ---------- */
 .video-card { max-width: 860px; margin: 40px auto 0; padding: 14px; }
 .video-wrap {
