@@ -45,6 +45,27 @@
 
 ---
 
+## 🖼️ С шейдерами и Без
+
+Сравни сам — слева обычный Roblox, справа с нашими шейдерами.
+
+<table>
+<tr>
+<th width="50%">❌ Без шейдеров</th>
+<th width="50%">✅ С шейдерами</th>
+</tr>
+<tr>
+<td><img src="1%20%D0%94%D0%BE.jpg" width="100%"/></td>
+<td><img src="1%20%D0%9F%D0%BE%D1%81%D0%BB%D0%B5.png" width="100%"/></td>
+</tr>
+<tr>
+<td><img src="2%20%D0%94%D0%BE.jpg" width="100%"/></td>
+<td><img src="2%20%D0%9F%D0%BE%D1%81%D0%BB%D0%B5.png" width="100%"/></td>
+</tr>
+</table>
+
+---
+
 ## 🚀 Как установить
 
 1. Зайди на [**сайт RBX Shaders**](https://rbxshaders.github.io/RBX-Shaders/).
